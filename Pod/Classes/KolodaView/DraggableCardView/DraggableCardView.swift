@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import pop
+import POP
 
 public enum DragSpeed: TimeInterval {
     case slow = 2.0

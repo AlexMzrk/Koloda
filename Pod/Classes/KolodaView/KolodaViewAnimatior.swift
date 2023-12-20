@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import pop
+import POP
 
 open class KolodaViewAnimator {
     
