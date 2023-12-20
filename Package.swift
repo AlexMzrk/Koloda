@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "Koloda", targets: ["Koloda"])
     ],
     dependencies: [
-        .package(url: "https://github.com/nickaroot/POP", .exact("1.0.12"))
+        .package(url: "https://github.com/boards-and-more/POP", .exact("1.0.13"))
     ],
     targets: [
         .target(name: "Koloda", dependencies: ["pop"], path: "Pod/Classes/KolodaView")
