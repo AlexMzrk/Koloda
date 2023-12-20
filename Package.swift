@@ -14,6 +14,6 @@ let package = Package(
         .package(url: "https://github.com/boards-and-more/POP", .exact("1.0.13"))
     ],
     targets: [
-        .target(name: "Koloda", dependencies: ["pop"], path: "Pod/Classes/KolodaView")
+        .target(name: "Koloda", dependencies: ["POP"], path: "Pod/Classes/KolodaView")
     ]
 )
