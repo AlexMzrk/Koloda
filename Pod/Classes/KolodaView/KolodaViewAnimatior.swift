@@ -25,7 +25,7 @@ open class KolodaViewAnimator {
         
         kolodaAppearScaleAnimation?.beginTime = CACurrentMediaTime() + cardSwipeActionAnimationDuration
         kolodaAppearScaleAnimation?.duration = duration
-        kolodaAppearScaleAnimation?.fromValue = NSValue(cgPoint: CGPoint(x: 0.1, y: 0.1))
+        kolodaAppearScaleAnimation?.fromValue = NSValue(cgPoint: CGPoint(x: 0.5, y: 0.5))
         kolodaAppearScaleAnimation?.toValue = NSValue(cgPoint: CGPoint(x: 1.0, y: 1.0))
         kolodaAppearScaleAnimation?.completionBlock = { (_, finished) in
             completion?(finished)
